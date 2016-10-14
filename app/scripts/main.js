@@ -1,14 +1,9 @@
 $( document ).ready(function(){
   $(".button-collapse").sideNav();
-  $('#accordionSlider').ncs({
-    // animationSpeed: 400,
-    // indent: 'auto',
-    // resizeAdaptation: true,
-    // useTimerForResizeAdaptation: false,
-    // autoWidth: true,
-    // autoHeight: true,
-    // active: 0,
-    // activeOnClick: false,
-    // offset: 32
+  $('#accordionSlider').raccordion({
+    speed: 1000,
+    sliderWidth: 1200,
+    sliderHeight: 243,
+    autoCollapse: true
   });
 });

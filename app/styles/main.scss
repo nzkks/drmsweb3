@@ -12,50 +12,53 @@ body {
 
 .page-wrapper{
   max-width: 1200px;
-  min-width: 320px;
+  min-width: 243px;
   margin: 0 auto;
-}
-.ncs-container {
-  max-width: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
-.ncs-card {
-  position: absolute;
-  top: 0;
-  right: 0;
-  background-position: left top;
-  background-repeat: no-repeat;
 }
 
 #accordionSlider{
-  .ncs-card {
-    width: 1000px;
-    height: 304px;
-    a{
-        position: absolute;
-        width: 100%;
-        height: 100%;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  display: inline-block;
+  .slide {
+    overflow: hidden;
+    display: block;
+    -moz-box-shadow: -5px 0px 5px rgba(1, 1, 1, 0.3);
+    -webkit-box-shadow: -5px 0px 5px rgba(1, 1, 1, 0.3);
+    box-shadow: -5px 0px 5px rgba(1, 1, 1, 0.3);
+    position: absolute;
+    cursor: pointer;
+    float: left;
+    display: inline-block;
+    zoom: 1;
+    img {
+      position: relative;
     }
   }
-  &_card_0 {
-    background-image: url('../images/accordion-slider/accordion-slider-img1.jpg');
-  }
-  &_card_1 {
-    background-image: url('../images/accordion-slider/accordion-slider-img2.jpg');
-  }
-  &_card_2 {
-    background-image: url('../images/accordion-slider/accordion-slider-img3.jpg');
-  }
-  &_card_3 {
-    background-image: url('../images/accordion-slider/accordion-slider-img4.jpg');
-  }
-  &_card_4 {
-    background-image: url('../images/accordion-slider/accordion-slider-img5.jpg');
-  }
-  &_card_5 {
-    background-image: url('../images/accordion-slider/accordion-slider-img6.jpg');
+  .caption {
+    position: absolute;
+    background: rgba(1, 1, 1, 0.4);
+    padding: 20px;
+    left: 0;
+    p {
+      color: #FFF;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0px;
+      font-size: 12px;
+      line-height: 1.6;
+    }
+    h1 {
+      color: #CCC;
+      font-size: 16px;
+      font-weight: normal;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0px;
+      margin-bottom: 5px;
+    }
+    a {
+      text-decoration: none;
+    }
   }
 }
 
