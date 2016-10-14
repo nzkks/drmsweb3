@@ -10,6 +10,56 @@ body {
   color: #333;
 }
 
+.page-wrapper{
+  max-width: 1200px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+.ncs-container {
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.ncs-card {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+
+#accordionSlider{
+  .ncs-card {
+    width: 1000px;
+    height: 304px;
+    a{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+  }
+  &_card_0 {
+    background-image: url('../images/accordion-slider/accordion-slider-img1.jpg');
+  }
+  &_card_1 {
+    background-image: url('../images/accordion-slider/accordion-slider-img2.jpg');
+  }
+  &_card_2 {
+    background-image: url('../images/accordion-slider/accordion-slider-img3.jpg');
+  }
+  &_card_3 {
+    background-image: url('../images/accordion-slider/accordion-slider-img4.jpg');
+  }
+  &_card_4 {
+    background-image: url('../images/accordion-slider/accordion-slider-img5.jpg');
+  }
+  &_card_5 {
+    background-image: url('../images/accordion-slider/accordion-slider-img6.jpg');
+  }
+}
+
+
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
