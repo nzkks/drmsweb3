@@ -6,4 +6,11 @@ $( document ).ready(function(){
     sliderHeight: 243,
     autoCollapse: true
   });
+  $(window).resize(function(){
+    if ($(window).width() <= 320){
+      $(".bio .card").removeClass("horizontal");
+    } else {
+      $(".bio .card").addClass("horizontal");
+    }
+  });
 });
