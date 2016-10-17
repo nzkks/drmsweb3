@@ -1,3 +1,3 @@
-# DRMSWeb3
+# Web app combo 3
 
-Probably this is going to be my website.
+This is using Materialize, yeoman generator-fountain-webapp & breakpoint-sass.
