@@ -1,5 +1,5 @@
 {
-  "name": "drmsweb3",
+  "name": "webapp-combo3",
   "private": true,
   "dependencies": {
     "jquery": "~2.1.1",
